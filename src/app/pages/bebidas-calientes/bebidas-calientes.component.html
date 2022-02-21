@@ -1,0 +1,39 @@
+<!-- <div class="container">
+
+
+    <div class="row">
+
+     
+
+      <div class="card" *ngFor="let b of bebidasCalientes">
+       
+        <img src="{{b.img}}" style="height: 200px; width: 200px;" class="card-img-top" alt="{{b.nombre}} - {{b.name}}" *ngIf="b.img">
+        <div class="col-xs col-sm-6 col-md-4 col-xl my-1">
+        <div class="card-body">
+          <h5 class="card-title">{{ b.nombre }} - {{ b.name }}</h5>
+          <p class="card-text">{{ b.precio | currency:'EUR'}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3  row-cols-xl-4 g-4">
+    
+    <div class="col" *ngFor="let b of bebidasCalientes">
+      <div class="card">
+        <img src="{{b.img}}" class="img-fluid"  alt="{{b.nombre}} - {{b.name}}" *ngIf="b.img">
+        <div class="card-body">
+          <h5 class="card-title">{{ b.nombre }} - {{ b.name }}</h5>
+          <p class="card-text">{{ b.precio | currency:'EUR'}}</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+

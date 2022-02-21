@@ -1,0 +1,17 @@
+
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3  row-cols-xl-4 g-4">
+      
+      <div class="col" *ngFor="let  c of croissants">
+        <div class="card">
+          <img src="{{c.img}}" class="img-fluid"  alt="{{c.nombre}} - {{c.name}}" *ngIf="c.img">
+          <div class="card-body">
+            <h5 class="card-title">{{ c.nombre }} - {{ c.name }}</h5>
+            <p class="card-text">{{ c.precio | currency:'EUR'}}</p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
