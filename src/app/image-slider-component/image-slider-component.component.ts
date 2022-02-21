@@ -22,9 +22,9 @@ export class ImageSliderComponent  {
   }
 //edit here    
   getNext() {
-      if(this.i < this.slides.length){
-        this.i = this.i===this.slides.length ? this.i : this.i + 1;
-      }
+    if(this.i <= this.slides.length-2){
+      this.i = this.i===this.slides.length ? this.i : this.i + 1;
+    }
       
   }
 

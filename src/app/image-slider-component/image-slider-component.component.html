@@ -1,11 +1,13 @@
+<div class="container d-flex justify-content-left">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
     <div class="carousel-inner" role="listbox">
         <img src="{{ getSlide() }}" alt="slide" >
     </div>
-  
-   <button (click)='getPrev()'>Prev</button>
+    <div class="d-flex justify-content-center mt-3">
+   <button (click)='getPrev()' >Prev</button>
   
    <button (click)='getNext()'>Next</button>
-  
+  </div>
+  </div>
   </div>
