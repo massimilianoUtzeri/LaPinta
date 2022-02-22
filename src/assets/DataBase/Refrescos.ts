@@ -64,7 +64,7 @@ import { Refrescos } from "src/app/interface/Refrescos.interface"
   
         "precio"      : 2.50,
 
-        "img"         : "",
+        "img"         : "assets/images/tinto.jpg",
 
         "id"          : 4  
       },
