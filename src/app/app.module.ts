@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,7 @@ import { BocadillosComponent } from './pages/bocadillos/bocadillos.component';
 import { RefrescosComponent } from './pages/refrescos/refrescos.component';
 import { CroissantsComponent } from './pages/croissants/croissants.component';
 import { ImageSliderComponent } from './image-slider-component/image-slider-component.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +34,7 @@ import { ImageSliderComponent } from './image-slider-component/image-slider-comp
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

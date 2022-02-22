@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class ImageSliderComponent  {
 
-  slides: string [] = ['./assets/images/caña.jpg', './assets/images/cappuccino.jpg', './assets/images/bar2.jpg' ]
+  slides: string [] = ['./assets/images/car1.jpg', './assets/images/car2.jpg', './assets/images/car3.jpg' ]
   i=0;
 
   getSlide() {

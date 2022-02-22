@@ -1,3 +1,13 @@
-.altura{
+.card{
+    border-radius: 50px;
+}
+
+img{
+    border-radius: 50px;
     height: 300px;
 }
+
+/*.altura{
+    height: 300px;
+}
+*/
