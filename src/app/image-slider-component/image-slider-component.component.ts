@@ -18,14 +18,13 @@ export class ImageSliderComponent  {
   }
 
   getPrev() {
-      this.i = this.i===0 ? 0 : this.i - 1;
+      this.i = this.i===0 ? this.slides.length -1 : this.i - 1;
   }
 //edit here    
   getNext() {
-    if(this.i <= this.slides.length-2){
-      this.i = this.i===this.slides.length ? this.i : this.i + 1;
-    }
-      
+    
+      this.i = this.i===this.slides.length -1 ? 0: this.i + 1;
+    
   }
 
 
