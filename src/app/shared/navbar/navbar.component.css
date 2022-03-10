@@ -1,24 +1,4 @@
-nav {
-    width:750px;
-    margin:0 auto;
-    list-style:none;
-    }
-
-    li {
-        float:left;
-    }
-    ul li a{
-        text-align: center;
-    }
-
-.container-fluid{
-    background-color: honeydew;
-}
-
-ul li a{
-    color: black;
-}
-
-nav a{
-    color: black;
+#navbar{
+    background-color: azure;
+    color:yellow;
 }

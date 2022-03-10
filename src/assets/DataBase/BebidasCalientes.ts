@@ -169,12 +169,7 @@ export const bebidasCalientesDB : BebidasCalientes [] = [
     img         : '', 
 
     id          : 13
-  },
-
-  
-  
-
-  
+  }
 
 ];
 
